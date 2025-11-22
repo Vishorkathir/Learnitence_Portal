@@ -92,7 +92,7 @@
             "subtitle2": "Output Visulaization",
             "tablebody": "spare",
             "table": "1",
-            "table1": {
+            "table2": {
                 "tablebox1":"Table",
                 "tablebox2":"Chart",
                 
@@ -122,7 +122,7 @@
             ],
             "subtitle2": "Output Visulaization",
            
-            "table1": {
+            "table2": {
                 "tablebox1":"Table",
                 "tablebox2":"Chart",
                 "head1": "user_id",
@@ -179,7 +179,7 @@
                 }
             ],
             "subtitle2": "Output Visulaization",
-            "table1": {
+            "table2": {
                 "tablebox1":"Table",
                 "tablebox2":"Chart",
                 "head1": "user_name",

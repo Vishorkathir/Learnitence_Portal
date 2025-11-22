@@ -9,7 +9,7 @@
     "content3": "Table:Bookings",
 
 
-    "table1": {
+    "table": {
         "head1": "student_id",
         "head2": "name",
         "head3": "department",
@@ -59,13 +59,13 @@
      "card2head": "Step by Step Solution",
     "card2content": "Before giving the answer, the code will be examined slowly and clearly, covering every part in a structured sequence.",
 
-"table2": {
+"table1": {
         "head1": "student_id",
         "head2": "name",
         "head3": "department",
         "head4": "marks",
 
-        "icons":"icon",
+        "icons":"icon1",
         "title":"View the Raw Data",
         "code":"SELECT*FROM students;",
         "output":"output",
@@ -109,6 +109,66 @@
                 "booktime": "81"
             }
         ]
+    },
+
+"table2": {
+        "head1": "department",
+        "head2": "average_marks",
+
+        "icons":"icon2",
+        "title":"Find Average Marks by Department",
+        "code":"SELECT department, AVG(marks) AS average_marks FROM students GROUP BY department;",
+        "output":"output",
+        
+        "person": [
+            {
+                "id": "Science",
+                "username": " 88.5 "
+            },
+            {
+                "id": "Commerce",
+                "username": "89 "
+            },
+            {
+                "id": "Arts",
+                "username": "79.5 "
+            }
+        ]
+    },
+
+"table3": {
+        "head1": "department",
+        "head2": "average_marks",
+
+        "icons":"icon3",
+        "title":"Sort the Results (to find top-performing  department)",
+        "code":"SELECT department, AVG(marks) AS average_marks FROM students GROUP BY department ORDER BY average_marks DESC;",
+        "output":"output",
+        
+        "person": [
+            {
+                "id": "Science",
+                "username": " 89 "
+            },
+            {
+                "id": "Commerce",
+                "username": "88.5 "
+            },
+            {
+                "id": "Arts",
+                "username": "79.5 "
+            }
+        ]
+    }
+    ,
+
+"table4": {
+        "head1": "department",
+        "head2": "average_marks",
+
+        "icons":"icon4",
+        "title":"Create a Summary Table (Optional)",
+        "code":"CREATE TABLE department_summary AS SELECT department, AVG(marks) AS average_marks FROM students GROUP BY department;"
     }
     
  

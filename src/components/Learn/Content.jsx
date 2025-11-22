@@ -166,7 +166,7 @@ const Content = () => {
                 </div>
                 <div className="p-4">
                   {
-                    (Array.isArray(cardinfo.table1) ? cardinfo.table1 : [cardinfo.table1]).map((conttable, index6) => (
+                    (Array.isArray(cardinfo.table2) ? cardinfo.table2 : [cardinfo.table2]).map((conttable, index6) => (
                       <div key={index6}>
                         <Table content={conttable} />
                       </div>

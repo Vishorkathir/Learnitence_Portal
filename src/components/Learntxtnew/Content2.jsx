@@ -44,8 +44,8 @@ const Content1 = () => {
                         <div className=" flex gap-2 bg-blue-500 p-8 text-2xl text-white rounded-tl-xl rounded-tr-xl">
 
 
-                            <h1 className="text-4xl bg-blue-500  rounded-4xl" >{numberIcons[json.table1.icons]}</h1>
-                            <h1 className="mt-1"> {json.table1.title}</h1>
+                            <h1 className="text-4xl bg-blue-500  rounded-4xl" >{numberIcons[json.table2.icons]}</h1>
+                            <h1 className="mt-1"> {json.table2.title}</h1>
 
 
                         </div>
@@ -53,18 +53,37 @@ const Content1 = () => {
                         <div className="p-5 grid gap-3 p-4"></div>
 
                         <div className="bg-black/70 text-white p-4 rounded-xl">
-                            <h1 style={{ whiteSpace: "pre-wrap" }}>{json.table1.code}</h1>
+                            <h1 style={{ whiteSpace: "pre-wrap" }}>{json.table2.code}</h1>
                         </div>
 
 
                     </div>
 
-                    <h1>{json.table1.output}</h1>
+                    <h1>{json.table2.output}</h1>
 
 
-                    <Table content={json.table1} />
+                    <Table content={json.table2} />
 
                 </div>
+
+
+                {/* main mark as read content */}
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             </div>
