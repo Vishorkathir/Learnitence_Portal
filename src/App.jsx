@@ -6,7 +6,7 @@ import { Routes,Route } from 'react-router-dom'
 // import Content from './components/Learn/Content'
 import Chatbotanime from './component2/chatbotAnime'
 // import Content1 from './components/Learntxtnew/Content1'
-import MainContent from "./components/Learntxtnew/MainContent"
+import MainContent from "./components/Learntxtnew/MainContent"    
 
 
 function App() {
